@@ -1,13 +1,13 @@
 text=input()
-b=input()
+letter=input()
 a=[]
-tmp=b
+tmp=letter
 cnt=1
 bcnt=1
 for i in text[1:]:
     tmp+=i
     cnt+=1
-    if i==b:
+    if i==letter:
         a.append(tmp[:-1])
         tmp=i
         bcnt=cnt
